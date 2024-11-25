@@ -5,6 +5,7 @@ package Matrizz;
 public class Producto {
     private String nombre;
     private double precio;
+    private Integer carrera;
     private Integer cantidad;
 
     public Producto(String nombre, double precio, Integer cantidad) {
